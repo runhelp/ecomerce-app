@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://runhelp.github.io/ecomerce-app/",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "cross-env PORT=10888 react-scripts start",
     "build": "react-scripts build"
   },
@@ -22,6 +25,7 @@
     "babel-eslint": "^9.0.0",
     "core-js": "^2.6.5",
     "fetch-jsonp": "^1.1.3",
+    "gh-pages": "^2.0.1",
     "prop-types": "^15.7.2",
     "react": "^16.8.3",
     "react-dom": "^16.8.3"

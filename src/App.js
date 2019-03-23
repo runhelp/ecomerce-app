@@ -34,7 +34,7 @@ class App extends React.Component {
 			}
 		});
 		connect.send('VKWebAppGetUserInfo', {});
-		connect.send("VKWebAppGetAuthToken", {"app_id": 6906999, "scope": "market"});
+		connect.send("VKWebAppGetAuthToken", {"app_id": 59405462, "scope": "market"});
 	}
 
 	go = (e) => {
