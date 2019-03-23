@@ -71,7 +71,7 @@ class App extends React.Component {
                     "title": "Антивирус G Data InternetSecurity (дополнительно к функциям G Data AntiVirus) 1key на 3 ПК",
                     "description": "1 ключ на 3 компьютера для ОС Windows",
                     "price": {
-                        "amount": "1 400",
+                        "amount": "1 4000",
                         "currency": {
                             "id": 643,
                             "name": "руб."
