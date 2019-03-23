@@ -13,29 +13,31 @@ class App extends React.Component {
 			activePanel: 'home',
 			fetchedUser: null,
 			authToken : null,
-			items : [{
-                    "id": 250409,
-                    "owner_id": -124527492,
-                    "title": "Persik",
+			items :
+[
+				{
+                    "id": 2320917,
+                    "owner_id": -59405462,
+                    "title": "Антивирус G Data InternetSecurity (дополнительно к функциям G Data AntiVirus) 5key на 3 ПК",
                     "description": "A majestic furball who adores to sleep, to purr, and to play with a computer mouse.",
                     "price": {
-                        "amount": "100000",
+                        "amount": "6600",
                         "currency": {
                             "id": 643,
                             "name": "RUB"
                         },
-                        "text": "1,000 rub."
+                        "text": "6 600 руб."
                     },
                     "category": {
-                        "id": 1001,
-                        "name": "Cats",
+                        "id": 306,
+                        "name": "Фильмы, музыка, программы",
                         "section": {
-                            "id": 10,
-                            "name": "Pets"
+                            "id": 3,
+                            "name": "Компьютерная техника"
                         }
                     },
-                    "date": 1467722904,
-                    "thumb_photo": "https://pp.vk.me/c631229/v631229852/3b6f3/SQ607FYCmy4.jpg",
+                    "date": 1546199922,
+                    "thumb_photo": "https://pp.userapi.com/c847121/v847121800/164783/8WPw3iVwKOk.jpg",
                     "availability": 0
                 },
                 {
@@ -87,7 +89,8 @@ class App extends React.Component {
                     "date": 1467721947,
                     "thumb_photo": "https://pp.vk.me/c633819/v633819852/37ae0/7lXUEbCwYYM.jpg",
                     "availability": 0
-                }]
+                }
+]
 		};
 
 		this.getItems = this.getItems.bind(this)
@@ -108,7 +111,7 @@ class App extends React.Component {
 			}
 		});
 		connect.send('VKWebAppGetUserInfo', {});
-		connect.send("VKWebAppGetAuthToken", {"app_id": 59405462, "scope": "market"});
+		connect.send("VKWebAppGetAuthToken", {"app_id": 2320917, "scope": "market"});
 	}
 
 	go = (e) => {
@@ -116,7 +119,7 @@ class App extends React.Component {
 	};
 
 	getItems() {
-		const ownerId = 124527492
+		const ownerId = -59405462
 		let api = `https://api.vk.com/method/market.get?v=5.52&access_token=${this.state.authToken}&owner_id=-${ownerId}`
 		fetchJsonp(api)
 		.then(res => res.json())
