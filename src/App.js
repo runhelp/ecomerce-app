@@ -124,7 +124,7 @@ class App extends React.Component {
 		fetchJsonp(api)
 		.then(res => res.json())
 		.then(data => this.setState({ items : data.response.items}))
-		.catch(e => [])
+		.catch(e => [10])
 	}
 
 	render() {
