@@ -66,28 +66,28 @@ class App extends React.Component {
                     "availability": 0
                 },
                 {
-                    "id": 250396,
-                    "owner_id": -124527492,
-                    "title": "First market item",
-                    "description": "Description text",
+                    "id": 2320915,
+                    "owner_id": -59405462,
+                    "title": "Антивирус G Data InternetSecurity (дополнительно к функциям G Data AntiVirus) 1key на 3 ПК"",
+                    "description": "1 ключ на 3 компьютера для ОС Windows",
                     "price": {
-                        "amount": "10000",
+                        "amount": "140000",
                         "currency": {
                             "id": 643,
                             "name": "RUB"
                         },
-                        "text": "100 rub."
+                        "text": "1 400 руб."
                     },
                     "category": {
-                        "id": 1,
-                        "name": "Women's Clothing",
+                        "id": 306,
+                        "name": "Фильмы, музыка, программы",
                         "section": {
-                            "id": 0,
-                            "name": "Fashion"
+                            "id": 3,
+                            "name": "Компьютерная техника"
                         }
                     },
-                    "date": 1467721947,
-                    "thumb_photo": "https://pp.vk.me/c633819/v633819852/37ae0/7lXUEbCwYYM.jpg",
+                    "date": 1546199757,
+                    "thumb_photo": "https://pp.userapi.com/c849128/v849128800/fd1f2/S3miXmNM7To.jpg",
                     "availability": 0
                 }
 ]
