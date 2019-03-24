@@ -21,12 +21,13 @@ class App extends React.Component {
                     "title": "Антивирус G Data InternetSecurity (дополнительно к функциям G Data AntiVirus) 5key на 3 ПК",
                     "description": "Являемся официальными поставщиками, группа компаний Бегущая Помощь, свой интернет магазин, цены ниже, ключи получаете лицензионные, работаем с юридическими лицами по всей России. Ответить можем прямо на странице поиска в Яндексе. 5 ключей, каждый на 3 компьютера для ОС Windows. Являемся официальными поставщиками, группа компаний Бегущая Помощь, свой интернет магазин, цены ниже, ключи получаете лицензионные, работаем с юридическими лицами по всей России. Ответить можем прямо на странице поиска в Яндексе",
                     "price": {
-                        "amount": "6 600",
+                        "amount": "660000",
                         "currency": {
                             "id": 643,
                             "name": "руб."
                         },
                         "text": "6 600 руб."
+
                     },
                     "category": {
                         "id": 306,
@@ -38,7 +39,7 @@ class App extends React.Component {
                     },
                     "date": 1546199922,
                     "thumb_photo": "https://pp.userapi.com/c847121/v847121800/164783/8WPw3iVwKOk.jpg",
-                    "availability": 0
+                    "availability": 0,
                 },
                 {
                     "id": 2320916,
@@ -111,7 +112,7 @@ class App extends React.Component {
 			}
 		});
 		connect.send('VKWebAppGetUserInfo', {});
-		connect.send("VKWebAppGetAuthToken", {"app_id": 2320917, "scope": "market"});
+		connect.send("VKWebAppGetAuthToken", {"app_id": 59405462, "scope": "market"});
 	}
 
 	go = (e) => {

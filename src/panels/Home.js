@@ -25,8 +25,8 @@ class Home extends React.Component {
 									before={
 										<img
 											style={{
-												width: 100,
-												height : 100,
+												width: 150,
+												height : 150,
 												margin : 10
 											}}
 											src={item.thumb_photo}
